@@ -3,8 +3,11 @@
 <div align="center">
 
 [![GitHub stars](https://img.shields.io/github/stars/JHShovon/python-image-placeholder?style=for-the-badge)](https://github.com/JHShovon/python-image-placeholder/stargazers)
+
 [![GitHub forks](https://img.shields.io/github/forks/JHShovon/python-image-placeholder?style=for-the-badge)](https://github.com/JHShovon/python-image-placeholder/network)
+
 [![GitHub issues](https://img.shields.io/github/issues/JHShovon/python-image-placeholder?style=for-the-badge)](https://github.com/JHShovon/python-image-placeholder/issues)
+
 [![GitHub license](https://img.shields.io/github/license/JHShovon/python-image-placeholder?style=for-the-badge)](LICENSE)
 
 **A simple command-line tool to generate placeholder images using Python.**
@@ -55,33 +58,6 @@ This Python script generates placeholder images of specified dimensions and colo
    pip install Pillow
    ```
 
-
-### Usage
-
-The script takes width, height and color as command line arguments. The color can be specified as a hex code, an RGB tuple (R,G,B), or a color name.
-
-```bash
-python img-placeholder/main.py <width> <height> <color>
-```
-
-**Examples:**
-
-- Generate a 300x200 placeholder image with a red background:
-  ```bash
-  python img-placeholder/main.py 300 200 red
-  ```
-
-- Generate a 500x500 placeholder image with a background color specified by hex code:
-  ```bash
-  python img-placeholder/main.py 500 500 #00FF00
-  ```
-
-- Generate a 100x100 placeholder image with a background color specified by an RGB tuple (Blue):
-  ```bash
-  python img-placeholder/main.py 100 100 (0,0,255)
-  ```
-
-
 ## 📁 Project Structure
 
 ```
@@ -91,6 +67,27 @@ python-image-placeholder/
 ├── README.md          # This file.
 ├── command-line.txt    # Description of command-line usage (redundant - included in README).
 └── python-placeholder-image-generate.png # Example image
+```
+## Installation
+Download [Python](https://www.python.org/downloads/) and install it.
+
+then install pillow from command line
+
+```bash
+python3 install python3-pillow
+```
+For linux
+```bash
+apt install python3-pillow
+```
+## How to generate palceholder
+If all installation requirement completed, copy your images and paste it "originals" folder
+```
+python-image-placeholder/img-placeholder/originals
+```
+Now run a command line
+```bash
+python3 img-placeholder/generate.py
 ```
 
 ## 🤝 Contributing
@@ -108,3 +105,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Made with ❤️ by JHShovon**
 
 </div>
+
