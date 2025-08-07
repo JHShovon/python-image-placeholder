@@ -61,12 +61,18 @@ This Python script generates placeholder images of specified dimensions and colo
 ## 📁 Project Structure
 
 ```
-python-image-placeholder/
-├── img-placeholder/
-│   └── main.py       # Main script for image generation.
-├── README.md          # This file.
-├── command-line.txt    # Description of command-line usage (redundant - included in README).
-└── python-placeholder-image-generate.png # Example image
+└── python-image-placeholder/
+    ├── command-line.txt
+    ├── python-placeholder-image-generate.png
+    ├── README.md
+    └── img-placeholder/
+        ├── generate.py
+        ├── placeholders/
+        │   ├── sample-img-1.png
+        │   └── sample-img-2.jpg
+        └── originals/
+            ├── sample-img-1.png
+        │   └── sample-img-2.jpg
 ```
 ## Installation
 Download [Python](https://www.python.org/downloads/) and install it.
