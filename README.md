@@ -23,7 +23,7 @@ If all installation requirement completed, copy your images and paste it "origin
 ```
 python-image-placeholder/img-placeholder/originals
 ```
-Now run a command line
+Now run a command line in "python-image-placeholder" root folder
 ```bash
 python3 img-placeholder/generate.py
 ```
