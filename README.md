@@ -31,7 +31,7 @@ python3 img-placeholder/generate.py
 
 Hooray! And you get your image placehoder image
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/JHShovon/python-image-placeholder/blob/main/python-placeholder-image-generate.png)
 
 
 ## Authors
