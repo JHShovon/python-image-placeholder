@@ -68,11 +68,11 @@ This Python script generates placeholder images of specified dimensions and colo
     └── img-placeholder/
         ├── generate.py
         ├── placeholders/
-        │   ├── sample-img-1.png
+        │   ├── sample-img-1.jpg
         │   └── sample-img-2.jpg
         └── originals/
-            ├── sample-img-1.png
-        │   └── sample-img-2.jpg
+            ├── sample-img-1.jpg
+            └── sample-img-2.jpg
 ```
 ## Installation
 Download [Python](https://www.python.org/downloads/) and install it.
